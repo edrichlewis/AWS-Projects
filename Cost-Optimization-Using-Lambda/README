@@ -1,0 +1,7 @@
+Cost-Optimization-Using-Lambda folder has the python code to deploy it using the Lambda function 
+
+CloudOptimizationPolicy.json - is the policy 
+Lambda-function-to-delete-idel-instance.py - is the python code which will delete the idle instances (CPU usage less than 10%)
+
+
+
