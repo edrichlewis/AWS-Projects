@@ -2,9 +2,10 @@ Cost-Optimization-Using-Lambda folder has the Python code to deploy it using the
 
 CloudOptimizationPolicy.json - is the policy 
 Lambda-function-to-delete-idel-instance.py - is the Python code which will delete the idle instances (CPU usage less than 10%)
-
+------------------------------------------------------------
+Downsizing underutilized instance:
 Lambda-function-downsize-underutilized-Instances.py - is the Python code to downsize the underutilized instances mainly from t2.medium to t2.micro
 
-
+IAM-additional-permission-downsize-underutilized-Instances.json - is the additional IAM role which needs to be added
 
 
